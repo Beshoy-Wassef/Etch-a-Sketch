@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Medievil Sharp";
+    src: url("MedievalSharp/MedievalSharp-Regular.ttf");
+
+}
+@font-face {
+    font-family: "Fascinate";
+    src: url(Fascinate/Fascinate-Regular.ttf);
+}
+.title {
+    font-family: "Medievil Sharp";
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(in oklch, #ff5f6d,#ffc371);
+
+    
+}
+
+button {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 30px;
+    font-family: "Medievil Sharp";
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+button:hover {
+    transition: 0.4s;
+    background-color: darkgrey;
+}
+
+button:active {
+    transition: 0.1s;
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 768px;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 20px;
+   
+    
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
